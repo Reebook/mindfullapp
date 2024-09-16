@@ -29,7 +29,7 @@ class _IntroScreenState extends State<IntroScreen> {
       body: Stack(
         children: [
           Positioned.fill(
-              child: Image.asset('assets/images/vets.jpg', fit: BoxFit.cover)),
+              child: Image.asset('assets/images/Sea.jpg', fit: BoxFit.cover)),
           Center(
               child: Text('Welcome $name', style: const TextStyle(fontSize: 24))),
           TextButton(
